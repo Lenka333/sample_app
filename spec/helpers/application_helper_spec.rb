@@ -12,7 +12,7 @@ describe ApplicationHelper do
     end
 
     it "should include the base title" do
-      full_title("").sould_not = ~ /\|/
+      full_title("").should_not =~ /\|/
     end
 
   end
